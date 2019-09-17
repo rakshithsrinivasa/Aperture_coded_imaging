@@ -50,8 +50,8 @@ end
 Xu_sep = [real(Xu)'; imag(Xu)'];
 Y_full = Xu_sep*Z;
 
-noise = randn(size(Y_full));
-noise = noise/norm(noise)*norm(Y_full)*0.01;
+% noise = randn(size(Y_full));
+% noise = noise/norm(noise)*norm(Y_full)*0.01;
 
 % Y_full = Y_full+noise;% uncomment to add noise
 
